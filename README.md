@@ -1,6 +1,12 @@
-# ECommerce
+# B-Commerce simple e-commerce app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
+
+# Screenshot of app
+
+![thumb1](https://raw.githubusercontent.com/boby177/Simple_E-Commerce/main/src/assets/imgs/thumb-img-1.png)
+
+![thumb2](https://raw.githubusercontent.com/boby177/Simple_E-Commerce/main/src/assets/imgs/thumb-img-2.png)
 
 ## Development server
 
