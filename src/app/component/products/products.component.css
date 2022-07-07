@@ -19,6 +19,7 @@
 .item {
     text-align: center;
     margin: 0px 15px;
+    cursor: pointer;
 }
 
 .item img{
@@ -36,7 +37,7 @@
 }
 
 .item a:active {
-    background-color: black;
+    /* background-color: black; */
     text-decoration: none;
 }
 

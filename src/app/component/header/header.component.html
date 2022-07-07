@@ -1,18 +1,31 @@
 <header>
-    <div class="navbar bg-dark shadow-sm">
-        <div class="navbar-brand align-item-center d-flex">
-            <i style="font-size: 40px; color: rgb(254, 254, 254);" class="fas fa-shipping-fast"> &nbsp;
-            </i>
-            <strong style="font-size: 30px; color: rgb(254, 254, 254); cursor: pointer;" routerLink="products">B-Commerce</strong>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="search products">
-            </div>
-            <span class="fas fa-search search-icon"></span>
-            
-        </div>
-        <button routerLink="cart" class="btn btn-dark">
-            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
-            <div style="font-size: 10px;" class="badge bg-danger">{{ totalItem }}</div>
-        </button>  
+  <div class="navbar bg-dark shadow-sm">
+    <div class="navbar-brand align-item-center d-flex">
+      <i
+        style="font-size: 40px; color: rgb(254, 254, 254)"
+        class="fas fa-shipping-fast"
+      >
+        &nbsp;
+      </i>
+      <strong
+        style="font-size: 30px; color: rgb(254, 254, 254); cursor: pointer"
+        routerLink="products"
+        >B-Commerce</strong
+      >
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control"
+          (ngModel)="searchTerm"
+          (keyup)="search($event)"
+          placeholder="search products"
+        />
+      </div>
+      <span class="fas fa-search search-icon"></span>
     </div>
+    <button routerLink="cart" class="btn btn-dark">
+      <i style="font-size: 30px" class="fas fa-cart-plus"></i>
+      <div style="font-size: 10px" class="badge bg-danger">{{ totalItem }}</div>
+    </button>
+  </div>
 </header>
