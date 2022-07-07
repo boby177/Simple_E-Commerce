@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Images
 
-![thumb}(https://raw.githubusercontent.com/boby177/Simple_E-Commerce/v-2.0/src/assets/imgs/thumb-img-3.png)
+![thumb](https://raw.githubusercontent.com/boby177/Simple_E-Commerce/v-2.0/src/assets/imgs/thumb-img-3.png)
 
 ## Development server
 
